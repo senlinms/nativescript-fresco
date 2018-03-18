@@ -119,7 +119,6 @@ declare namespace com {
             namespace util {
                 class UriUtil {
                     static LOCAL_RESOURCE_SCHEME;
-                    static getUriForResourceId(resourceId) : any;
                 }
             }
         }
