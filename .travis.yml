@@ -24,7 +24,7 @@ matrix:
     #   jdk: oraclejdk8
     #   before_install: nvm install 6.10.3
     #   script: cd demo-angular && npm run build.plugin && npm i && tns build android --bundle --env.uglify --env.snapshot
-    - os: linux
+      os: linux
       env: 
         - BuildAndroid="26"
       language: android
